@@ -4,7 +4,7 @@ public class InputOutput {
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in);
 
-        System.out.println("Enter name and age:");
+        System.out.println("Enter name, age, home:");
 
         // String input
         String name = myObj.nextLine();
@@ -12,9 +12,12 @@ public class InputOutput {
         // Numerical input
         int age = myObj.nextInt();
 
+        String home = myObj.nextLine();
+
         // Output input by user
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
+        System.out.println("Home: " + home);
 
     }
 }
