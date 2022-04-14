@@ -19,5 +19,12 @@ public class InputOutput {
         System.out.println("Age: " + age);
         System.out.println("Home: " + home);
 
+        hitungLuas(2,10);
+
+    }
+
+
+    public static void hitungLuas(int atas, int tinggi) {
+
     }
 }
