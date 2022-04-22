@@ -31,12 +31,12 @@ fun main() {
     }
 
     // implementasi pakai when credit mas juna
-    val result = when("$warna1-$warna2"){
-        "merah-biru","biru-merah" -> "hijau"
-        "merah-hijau", "hijau-merah"-> "coklat"
-        "biru-hijau", "hijau-biru"-> "cyan"
+    val result = when("$warna1-$warna2") {
+        "merah-biru", "biru-merah" -> "hijau"
+        "merah-hijau", "hijau-merah" -> "coklat"
+        "biru-hijau", "hijau-biru" -> "cyan"
         else -> "DRAW"
-
+    }
     // cara lain untuk perbandingan string dengan mengabaikan besar kecil
     //(warna1.equals("Merah", ignoreCase = true))
 }
